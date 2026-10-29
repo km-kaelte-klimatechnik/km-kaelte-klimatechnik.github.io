@@ -1,0 +1,24 @@
+.DS_Store
+**/.DS_Store
+
+# Generated deployment archives
+*.zip
+
+# Hostinger-only notes/scripts
+HOSTINGER_UPLOAD_CHECKLIST.md
+create_hostinger_upload_zip.sh
+
+# Old/test video candidates that are not used by the live site
+media/cand-*.mp4
+media/cand-thumbs/
+media/hero-pexels-*.mp4
+media/ref/
+
+# Local duplicate page draft
+index-neu.html
+
+# Hostinger/server-only config, not used by GitHub Pages
+.htaccess
+
+# Local video duplicate, not referenced by the final HTML
+media/hero-air-conditioning-v2.mp4
